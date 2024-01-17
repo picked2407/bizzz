@@ -32,7 +32,7 @@ const Navbar = () => {
             <p><a href="#possibility">How it works</a></p>
           </div>
           <div className="gpt3__navbar-menu_container-links-sign">
-            <button type="button">Get Started</button>
+              <button type="button"><a href="https://discord.gg/2pWqBuUSeg">Join</a></button>
           </div>
         </div>
         )}
