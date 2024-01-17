@@ -4,28 +4,27 @@ import './features.css';
 
 const featuresData = [
   {
-    title: 'Improving end distrusts instantly',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    title: ' Video Editing',
+    text: 'Join our server, showcase your video editing skills, get selected, and start collaborating on exciting projects with our talented team!',
   },
   {
-    title: 'Become the tended active',
-    text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
+    title: 'Web development',
+    text: 'Explore limitless possibilities in web design! Present your stellar portfolio in our server, get selected, and dive into collaborative projects with our skilled web design team. Your next creative journey begins here!    ',
   },
   {
-    title: 'Message or am nothing',
-    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
+    title: 'Content/Copywriting',
+    text: 'Join, showcase, create! Elevate your copy/content writing with us and collaborate on impactful projects.',
   },
   {
-    title: 'Really boy law county',
-    text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..',
+    title: 'Bot and System Development',
+    text: 'Join for bot/system development! Showcase your work, collaborate on cutting-edge projects. Your coding journey starts here!',
   },
 ];
 
 const Features = () => (
-  <div className="gpt3__features section__padding" id="features">
+  <div className="gpt3__features section__padding text-center" id="features">
     <div className="gpt3__features-heading">
-      <h1 className="gradient__text">The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h1>
-      <p>Request Early Access to Get Started</p>
+      <h1 className="gradient__text">Our Services</h1>
     </div>
     <div className="gpt3__features-container">
       {featuresData.map((item, index) => (
