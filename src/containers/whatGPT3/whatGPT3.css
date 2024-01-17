@@ -121,3 +121,67 @@
         min-width: 100%;
     }
 }
+
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: var(--font-family);
+    color: #FFFFFF; /* Specify your desired color */
+  }
+
+  .content {
+    font-size: 18px;
+    font-family: var(--font-family);
+    color: #FFFFFF; /* Specify your desired color */
+  }
+
+  /* Add your existing styles here */
+
+.gpt3__whatgpt3-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .heading {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: var(--font-family);
+    color: #FFFFFF;
+    margin-bottom: 10px;
+  }
+  
+  .content-list {
+    list-style-type: none;
+    font-size: 16px;
+    color: #FFFFFF; /* Specify your desired color */
+    margin-bottom: 10px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    padding: 0;
+  }
+
+  
+  
+  .gpt3__whatgpt3-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .gradient__text {
+    /* Add your gradient styles or any other styles for the heading */
+  }
+  
+  /* Add the rest of your styles as needed */
+
+  /* Add your existing styles here */
+
+.text-center {
+    text-align: center;
+  }
+  
+  /* Add the rest of your styles as needed */
+  
+  
