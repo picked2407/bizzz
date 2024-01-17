@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../logo.svg';
 import './navbar.css';
 
 const Navbar = () => {
@@ -10,19 +9,16 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          <img src={logo} />
+          <span>Bizhub</span>
         </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
-          <p><a href="#wgpt3">What is GPT3?</a></p>
-          <p><a href="#possibility">Open AI</a></p>
-          <p><a href="#features">Case Studies</a></p>
-          <p><a href="#blog">Library</a></p>
+          <p><a href="#wgpt3">About</a></p>
+          <p><a href="#possibility">How it works</a></p>
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <p>Sign in</p>
-        <button type="button">Sign up</button>
+        <button type="button"><a href="https://google.com">Join</a></button>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu
@@ -32,14 +28,11 @@ const Navbar = () => {
         <div className="gpt3__navbar-menu_container scale-up-center">
           <div className="gpt3__navbar-menu_container-links">
             <p><a href="#home">Home</a></p>
-            <p><a href="#wgpt3">What is GPT3?</a></p>
-            <p><a href="#possibility">Open AI</a></p>
-            <p><a href="#features">Case Studies</a></p>
-            <p><a href="#blog">Library</a></p>
+            <p><a href="#wgpt3">About</a></p>
+            <p><a href="#possibility">How it works</a></p>
           </div>
           <div className="gpt3__navbar-menu_container-links-sign">
-            <p>Sign in</p>
-            <button type="button">Sign up</button>
+            <button type="button">Get Started</button>
           </div>
         </div>
         )}
