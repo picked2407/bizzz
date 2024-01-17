@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          <span>Bizhub</span>
+          <span style={{ color: 'white', fontSize: '16px' }}>Bizhub</span>
         </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
