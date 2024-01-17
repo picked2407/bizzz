@@ -5,16 +5,15 @@ import './whatGPT3.css';
 const WhatGPT3 = () => (
   <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
     <div className="gpt3__whatgpt3-feature">
-      <Feature title="What is GPT-3" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by." />
-    </div>
-    <div className="gpt3__whatgpt3-heading">
-      <h1 className="gradient__text">The possibilities are beyond your imagination</h1>
-      <p>Explore the Library</p>
+      <span className="heading">Why choose <span style={{ color: 'red' }}>BizHub</span>?</span>
+      <div className="content-list">
+        <p>At BizHub, we pride ourselves on revolutionizing the freelancing experience by offering a unique platform tailored to the needs of both freelancers and clients. Here&apos;s why you should choose BizHub:</p>
+      </div>
     </div>
     <div className="gpt3__whatgpt3-container">
-      <Feature title="Chatbots" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." />
-      <Feature title="Knowledgebase" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
-      <Feature title="Education" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
+      <Feature title="Verified Quality" text="Connect with top-tier freelancers who have undergone a stringent verification process, ensuring you work with skilled professionals dedicated to delivering exceptional results." />
+      <Feature title="Secure Transactions" text="Our platform operates within the trusted Discord environment, providing a secure space for freelancers and clients to engage in seamless transactions with the assurance that their data is protected." />
+      <Feature title="Transparent Fees" text="BizHub believes in transparent business practices. With a straightforward 20% commission on transactions, you can trust that your funds are supporting continuous platform improvements, security enhancements, and overall service excellence." />
     </div>
   </div>
 );
