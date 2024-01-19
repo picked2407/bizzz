@@ -8,7 +8,7 @@ const Footer = () => (
     </div>
 
     <div className="gpt3__footer-btn">
-      <p>Get started</p>
+      <p><a href="https://discord.gg/SVQ9PQzEsW"></a>Get started</a></p>
     </div>
 
     <div className="gpt3__footer-links">
