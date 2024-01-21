@@ -3,13 +3,6 @@ import './footer.css';
 
 const Footer = () => (
   <div className="gpt3__footer section__padding">
-    <div className="gpt3__footer-heading">
-      <h1 className="gradient__text">Join us to start your journey today</h1>
-    </div>
-
-    <div className="gpt3__footer-btn">
-      <p><a href="https://discord.gg/SVQ9PQzEsW"></a>Get started</a></p>
-    </div>
 
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
